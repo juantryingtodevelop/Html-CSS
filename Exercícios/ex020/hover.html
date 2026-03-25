@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        div{
+            background-color: rgb(216, 73, 185);
+            border: 1px solid ;
+            width: 200px;
+            height: 75px;
+            margin-inline: inherit;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: lighter ;
+        }
+
+        div:hover{
+            background-color: rgb(139, 98, 177);
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo De Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo.</p>
+    <div>passe esse seu cursorzinho em mim vai...
+    <p>Jorra fleikão.</p>
+    </div>
+    <p>Fim do exemplo.</p>
+    
+</body>
+</html>
