@@ -17,7 +17,7 @@
 
 
 html, body{
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(255, 255, 255);
     font-family: var(--fonte01);
     min-height: 100vh;
 }
@@ -62,11 +62,12 @@ main p{
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     line-height: 2em;
     padding-left: 30px;
-    font-size: 3vw;
+    font-family: var(--fonte03);
+    font-size: 2.5vw;   
 }
 
 section.normal{
@@ -75,15 +76,28 @@ section.normal{
 }
 
 section.img{
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(240, 239, 239);
     color: white;
-    display: inline-block;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-section.img > p{
-    background-color: rgb(39, 37, 37);
-    padding: 5px;
+section.img > p {
+    display: inline-block;
+    background-color: rgba(20, 20, 20, 0.5);
+    padding: 10px;
+    text-shadow: 1px 1px 1px black;
+}
 
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right, center;
+  
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer{
